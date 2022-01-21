@@ -63,7 +63,7 @@ public class Robot extends TimedRobot {
 
     if (button0.get()) {
       elevatorSCG.set(0.7);
-    } else {
+    } else if (button1.get()) {
       elevatorSCG.set(-0.7);
     }
   }
